@@ -1,0 +1,18 @@
+name: AdvancedWarp
+author: Jubayer Khan
+website: github.com/JubayerKhan-hub
+version: 1.0.0
+main: AdvancedWarp\Main
+api: [5.0.0]
+commands:
+  warp:
+    description: Manage warp points
+    usage: "/warp <command>"
+    permission: advancedwarp.use
+permissions:
+  advancedwarp.use:
+    description: Allows the player to use warp commands
+    default: true
+  advancedwarp.admin:
+    description: Allows the player to manage warp points
+    default: op
